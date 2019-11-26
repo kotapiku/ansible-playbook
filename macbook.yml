@@ -1,0 +1,13 @@
+- name: Mac Setup
+  hosts: all
+  connection: local
+
+  tasks:
+    - name: Make sure dotfiles are present
+      git:
+        repo: https://github.com/kotapiku/dotfiles.git
+        dest: ~/.dotfiles
+
+  roles:
+    - homebrew
+
