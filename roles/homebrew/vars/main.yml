@@ -13,8 +13,12 @@ brew_cask_apps:
   - skim
   - dropbox
   - hyperswitch
+  - mactex
+  - spotify
 brew_packages:
+  - ag
   - fzf
+  - ghostscript
   - ghq
   - gibo
   - git
@@ -22,9 +26,9 @@ brew_packages:
   - go
   - grep
   - htop
+  - imagemagick
   - jq
   - neovim
-  - openssl
   - peco
   - python
   - reattach-to-user-namespace

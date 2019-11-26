@@ -1,0 +1,9 @@
+- name: System Preferences
+  osx_defaults:
+    host: "{{ item.host | default() }}"
+    domain: "com.apple.{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value | default() }}"
+  with_items:
+    - "{{ apple_defaults }}"

@@ -2,12 +2,15 @@
   hosts: all
   connection: local
 
+  vars:
+    dotfiles_repo: "https://github.com/kotapiku/dotfiles.git"
+
   tasks:
     - name: Make sure dotfiles are present
       git:
-        repo: https://github.com/kotapiku/dotfiles.git
-        dest: ~/.dotfiles
+        repo: "{{ dotfiles_repo }}"
+        dest: ~/dotfiles
 
   roles:
-    - homebrew
-
+    - {role: homebrew, tags: 'brew'}
+    - {role: osx_defaults, tags: 'osx'}
