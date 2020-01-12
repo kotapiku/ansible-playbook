@@ -1,5 +1,6 @@
 brew_taps:
   - homebrew/core
+  - homebrew/cask-fonts
 brew_cask_apps:
   - alfred
   - google-chrome
@@ -13,10 +14,12 @@ brew_cask_apps:
   - skim
   - dropbox
   - hyperswitch
+  - font-hack-nerd-font # iconic font
   - mactex
   - spotify
 brew_packages:
   - ag
+  - bat # super cat
   - fzf
   - ghostscript
   - ghq
