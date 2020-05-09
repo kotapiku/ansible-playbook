@@ -5,10 +5,11 @@ brew_cask_apps:
   - alfred
   - google-chrome
   - google-japanese-ime
+  - google-backup-and-sync
   - iterm2
+  - spark
   - slack
   - notion
-  - bitwarden
   - karabiner-elements
   - cheatsheet
   - skim
@@ -18,7 +19,6 @@ brew_cask_apps:
   - mactex
   - spotify
   - zoom
-  - spark
   - mendeley
 brew_packages:
   - ag
