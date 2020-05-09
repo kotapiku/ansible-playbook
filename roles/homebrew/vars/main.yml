@@ -7,7 +7,6 @@ brew_cask_apps:
   - google-japanese-ime
   - google-backup-and-sync
   - iterm2
-  - spark
   - slack
   - notion
   - karabiner-elements
