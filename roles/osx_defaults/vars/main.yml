@@ -63,7 +63,3 @@ apple_defaults:
     key: ShowStatusBar
     type: bool
     value: true
-    # change screencapture location
-  - domain: com.apple.screencapture
-    key: location
-    value: ${HOME}/Downloads

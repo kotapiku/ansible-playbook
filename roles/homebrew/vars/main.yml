@@ -9,16 +9,15 @@ brew_cask_apps:
   - iterm2
   - slack
   - notion
-  - karabiner-elements
   - cheatsheet
   - skim
   - dropbox
   - hyperswitch
   - font-hack-nerd-font # iconic font
-  - mactex
   - spotify
   - zoom
   - mendeley
+  - mactex
 brew_packages:
   - ag
   - bat # super cat
@@ -31,6 +30,7 @@ brew_packages:
   - go
   - grep
   - htop
+  - hub
   - imagemagick
   - jq
   - neovim
@@ -40,3 +40,4 @@ brew_packages:
   - tmux
   - tree
   - wget
+  - zplug
