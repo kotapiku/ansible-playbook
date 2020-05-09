@@ -17,6 +17,9 @@ brew_cask_apps:
   - font-hack-nerd-font # iconic font
   - mactex
   - spotify
+  - zoom
+  - spark
+  - mendeley
 brew_packages:
   - ag
   - bat # super cat
@@ -38,4 +41,3 @@ brew_packages:
   - tmux
   - tree
   - wget
-  - zsh
