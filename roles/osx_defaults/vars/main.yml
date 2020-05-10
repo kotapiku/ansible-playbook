@@ -63,3 +63,8 @@ apple_defaults:
     key: ShowStatusBar
     type: bool
     value: true
+    # メニューバーを隠す
+  - domain: general
+    key: AutoHideMenuBar
+    type: bool
+    value: true

@@ -11,18 +11,16 @@ brew_cask_apps:
   - notion
   - cheatsheet
   - skim
-  - dropbox
   - hyperswitch
   - font-hack-nerd-font # iconic font
   - spotify
   - zoom
-  - mendeley
-  - mactex
+  - mendeleneny
 brew_packages:
   - ag
   - bat # super cat
   - fzf
-  - ghostscript
+  - ghostscript # for latexmk
   - ghq
   - gibo
   - git
@@ -31,7 +29,7 @@ brew_packages:
   - grep
   - htop
   - hub
-  - imagemagick
+  - imagemagick # for latexmk
   - jq
   - neovim
   - peco
