@@ -16,6 +16,7 @@ brew_cask_apps:
   - spotify
   - mendeleneny
   - grammarly
+  - detexify
 brew_packages:
   - ag
   - bat # super cat
