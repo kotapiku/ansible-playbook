@@ -14,3 +14,4 @@
   roles:
     - {role: homebrew, tags: 'brew'}
     - {role: osx_defaults, tags: 'osx'}
+    - {role: mas, tags: 'mas'}

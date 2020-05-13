@@ -1,0 +1,5 @@
+---
+apps:
+  - { name: "Spark", id: "1176895641" }
+  - { name: "Magnet", id: "441258766" }
+  - { name: "LINE", id: "539883307" }
