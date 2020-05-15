@@ -17,6 +17,7 @@ brew_cask_apps:
   - mendeleneny
   - grammarly
   - detexify
+  - bettertouchtool
 brew_packages:
   - ag
   - bat # super cat
