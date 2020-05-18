@@ -17,7 +17,6 @@ brew_cask_apps:
   - mendeleneny
   - grammarly
   - detexify
-  - bettertouchtool
 brew_packages:
   - ag
   - bat # super cat
@@ -26,16 +25,12 @@ brew_packages:
   - ghq
   - gibo
   - git
-  - git-lfs
-  - go
   - grep
   - htop
   - hub
   - imagemagick # for latexmk
-  - jq
   - neovim
   - peco
-  - python
   - reattach-to-user-namespace
   - tmux
   - tree
