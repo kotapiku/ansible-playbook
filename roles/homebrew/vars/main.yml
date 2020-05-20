@@ -32,7 +32,7 @@ brew_packages:
   - neovim
   - peco
   - reattach-to-user-namespace
-  - ripgrep
+  - ripgrep # for fzf
   - tmux
   - tree
   - wget
