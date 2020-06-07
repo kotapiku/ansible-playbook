@@ -27,13 +27,11 @@ brew_packages:
   - git
   - grep
   - htop
-  - hub
   - imagemagick # for latexmk
   - neovim
-  - peco
   - reattach-to-user-namespace
   - ripgrep # for fzf
   - tmux
   - tree
   - wget
-  - zplug
+  - z # ambiguous cd
