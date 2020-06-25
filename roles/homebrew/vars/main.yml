@@ -1,6 +1,7 @@
 brew_taps:
   - homebrew/core
   - homebrew/cask-fonts
+  - heroku/brew
 brew_cask_apps:
   - alfred
   - google-chrome
@@ -26,6 +27,7 @@ brew_packages:
   - gibo
   - git
   - grep
+  - heroku
   - htop
   - imagemagick # for latexmk
   - neovim
