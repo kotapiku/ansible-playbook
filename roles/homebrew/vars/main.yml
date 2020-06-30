@@ -31,9 +31,10 @@ brew_packages:
   - htop
   - imagemagick # for latexmk
   - neovim
+  - postgresql # for kotatsu
   - reattach-to-user-namespace
   - ripgrep # for fzf
   - tmux
   - tree
   - wget
-  - z # ambiguous cd
+  - zoxide # ambiguous cd
