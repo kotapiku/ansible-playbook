@@ -15,9 +15,9 @@ brew_cask_apps:
   - hyperswitch
   - font-hack-nerd-font # iconic font
   - spotify
-  - mendeleneny
   - grammarly
   - detexify
+  - zotero
 brew_packages:
   - ag
   - bat # super cat
