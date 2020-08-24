@@ -1,21 +1,23 @@
 brew_taps:
   - homebrew/core
   - homebrew/cask-fonts
+  - homebrew/cask-drivers # for qmk-toolbox
   - heroku/brew
 brew_cask_apps:
   - alfred
+  - cheatsheet
+  - detexify
+  - font-hack-nerd-font # iconic font
   - google-chrome
   - google-japanese-ime
   - google-backup-and-sync
-  - iterm2
-  - slack
-  - cheatsheet
-  - skim
-  - hyperswitch
-  - font-hack-nerd-font # iconic font
-  - spotify
   - grammarly
-  - detexify
+  - hyperswitch
+  - iterm2
+  - qmk-toolbox # for lily58
+  - skim
+  - slack
+  - spotify
   - zotero
 brew_packages:
   - ag
