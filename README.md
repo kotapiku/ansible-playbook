@@ -3,7 +3,7 @@
 ## For Macbook
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ brew install git ansible
 $ git clone https://github.com/kotapiku/ansible-playbooks.git
 $ cd ansible-playbooks
