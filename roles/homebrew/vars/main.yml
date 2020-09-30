@@ -5,6 +5,7 @@ brew_taps:
   - heroku/brew
 brew_cask_apps:
   - alfred
+  - box-drive
   - cheatsheet
   - detexify
   - font-hack-nerd-font # iconic font
