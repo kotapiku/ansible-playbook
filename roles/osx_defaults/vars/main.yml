@@ -5,7 +5,7 @@ apple_defaults:
     type: bool
     value: true
     # タッチでクリックを有効化
-  - domain: driver.AppleBluetoothMultitouch.trackpad
+  - domain: AppleMultitouchTrackpad
     key: Clicking
     type: int
     value: 1
