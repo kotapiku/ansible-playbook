@@ -68,3 +68,13 @@ apple_defaults:
     key: AutoHideMenuBar
     type: bool
     value: true
+    # メニューバーからsiriを消す
+  - domain: Siri
+    key: StatusMenuVisible
+    type: int
+    value: 0
+    # disable ask siri
+  - domain: Siri
+    key: VoiceTriggerUserEnabled
+    type: int
+    value: 0
