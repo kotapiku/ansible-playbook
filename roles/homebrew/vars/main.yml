@@ -7,6 +7,7 @@ brew_cask_apps:
   - alfred
   - box-drive
   - cheatsheet
+  - deepl
   - detexify
   - font-hack-nerd-font # iconic font
   - google-chrome
