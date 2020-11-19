@@ -41,3 +41,4 @@ brew_packages:
   - tree
   - wget
   - zoxide # ambiguous cd
+  - starship
