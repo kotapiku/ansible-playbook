@@ -4,7 +4,7 @@
     state: "present"
   with_items: "{{ brew_taps }}"
 
-- name: brew cask install
+- name: brew install --cask
   homebrew_cask:
     name: "{{ item }}"
     state: "present"

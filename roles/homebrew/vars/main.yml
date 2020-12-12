@@ -16,6 +16,7 @@ brew_cask_apps:
   - grammarly
   - hyperswitch
   - iterm2
+  - latexit # make pic from latex
   - qmk-toolbox # for lily58
   - skim
   - slack
