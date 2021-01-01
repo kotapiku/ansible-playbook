@@ -35,6 +35,7 @@ brew_packages:
   - htop
   - imagemagick # for latexmk
   - neovim
+  - nkf # for encoding
   - postgresql # for kotatsu
   - reattach-to-user-namespace
   - ripgrep # for fzf
