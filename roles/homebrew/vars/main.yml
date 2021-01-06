@@ -39,6 +39,7 @@ brew_packages:
   - postgresql # for kotatsu
   - reattach-to-user-namespace
   - ripgrep # for fzf
+  - tig # for github
   - tmux
   - tree
   - wget
