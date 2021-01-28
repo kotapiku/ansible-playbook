@@ -33,6 +33,7 @@ brew_packages:
   - grep
   - heroku
   - htop
+  - icdiff # improved colored diff, (e.g. git icdiff)
   - imagemagick # for latexmk
   - neovim
   - nkf # for encoding
