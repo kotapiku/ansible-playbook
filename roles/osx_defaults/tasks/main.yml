@@ -1,27 +1,17 @@
 - name: System Preferences
   osx_defaults:
-    host: "{{ item.host | default() }}"
-    domain: "com.apple.{{ item.domain }}"
     key: "{{ item.key }}"
     type: "{{ item.type }}"
     value: "{{ item.value | default() }}"
   with_items:
     - "{{ apple_defaults }}"
 
-- name: Initial key repeat time
+- name: System Preferences (com)
   osx_defaults:
-    key: InitialKeyRepeat
-    type: int
-    value: 25
-
-- name: Key repeat time
-  osx_defaults:
-    key: KeyRepeat
-    type: int
-    value: 2
-
-- name: Prefer tabs always
-  osx_defaults:
-    key: AppleWindowTabbingMode
-    type: string
-    value: always
+    host: "{{ item.host | default() }}"
+    domain: "com.apple.{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value | default() }}"
+  with_items:
+    - "{{ apple_defaults_com }}"

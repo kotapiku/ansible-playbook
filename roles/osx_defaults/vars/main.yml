@@ -1,4 +1,22 @@
 apple_defaults:
+    # Initial key repeat time
+  - key: InitialKeyRepeat
+    type: int
+    value: 25
+    # Key repeat time
+  - key: KeyRepeat
+    type: int
+    value: 2
+    # Prefer tabs always
+  - key: AppleWindowTabbingMode
+    type: string
+    value: always
+    # hide menu bar
+  - key: _HIHideMenuBar
+    type: int
+    value: 1
+
+apple_defaults_com:
     # ドックを自動でしまう
   - domain: dock
     key: autohide
