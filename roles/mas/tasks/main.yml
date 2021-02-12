@@ -1,7 +1,7 @@
 - name: install mas cli
   homebrew:
     name: mas
-    state: present
+    state: "present"
 
 - name: fetch list
   command: mas list
