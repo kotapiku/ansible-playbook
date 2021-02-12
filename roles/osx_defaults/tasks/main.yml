@@ -19,3 +19,9 @@
     key: KeyRepeat
     type: int
     value: 2
+
+- name: Prefer tabs always
+  osx_defaults:
+    key: AppleWindowTabbingMode
+    type: string
+    value: always
