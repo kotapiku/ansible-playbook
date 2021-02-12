@@ -13,7 +13,7 @@ apple_defaults:
   - domain: trackpad.scaling
     key: scaling
     type: float
-    value: 15
+    value: 3
     # 隠しファイルを表示
   - domain: finder
     key: AppleShowAllFiles

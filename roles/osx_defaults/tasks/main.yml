@@ -7,3 +7,15 @@
     value: "{{ item.value | default() }}"
   with_items:
     - "{{ apple_defaults }}"
+
+- name: Initial key repeat time
+  osx_defaults:
+    key: InitialKeyRepeat
+    type: int
+    value: 25
+
+- name: Key repeat time
+  osx_defaults:
+    key: KeyRepeat
+    type: int
+    value: 2

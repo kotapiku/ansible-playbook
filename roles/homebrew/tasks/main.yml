@@ -20,3 +20,9 @@
   homebrew:
     name: "{{ brew_packages }}"
     state: "present"
+
+- name: brew install universal_ctags
+  homebrew:
+    name: "universal-ctags/universal-ctags/universal-ctags"
+    install_options: "HEAD"
+    state: "present"

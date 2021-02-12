@@ -46,4 +46,3 @@ brew_packages:
   - wget
   - zoxide # ambiguous cd
   - starship
-  - --HEAD universal-ctags/universal-ctags/universal-ctags
