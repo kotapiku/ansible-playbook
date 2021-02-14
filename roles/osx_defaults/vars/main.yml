@@ -96,3 +96,8 @@ apple_defaults_com:
     key: VoiceTriggerUserEnabled
     type: int
     value: 0
+    # large cursor size
+  - domain: universalaccess
+    key: mouseDriverCursorSize
+    type: float
+    value: 2.5
