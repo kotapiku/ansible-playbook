@@ -39,6 +39,7 @@ brew_packages:
   - neovim
   - nkf # for encoding
   - postgresql # for kotatsu
+  - pyenv
   - reattach-to-user-namespace
   - ripgrep # for fzf
   - tig # for github
