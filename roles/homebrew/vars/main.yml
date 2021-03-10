@@ -16,7 +16,6 @@ brew_cask_apps:
   - grammarly
   - hyperswitch
   - iterm2
-  - latexit # make pic from latex
   - qmk-toolbox # for lily58
   - skim
   - slack
@@ -26,7 +25,7 @@ brew_packages:
   - ag
   - bat # super cat
   - fzf
-  - ghostscript # for latexmk
+  - ghostscript # for latexmk, latexit
   - ghq
   - gibo
   - git
@@ -47,4 +46,4 @@ brew_packages:
   - tree
   - wget
   - zoxide # ambiguous cd
-  - starship
+  - starship # customize prompt
