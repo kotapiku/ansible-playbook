@@ -20,6 +20,7 @@ brew_cask_apps:
   - skim
   - slack
   - spotify
+  - visual-studio-code
   - zotero
 brew_packages:
   - ag
