@@ -4,3 +4,4 @@ apps:
   - { name: "Magnet", id: "441258766" }
   - { name: "LINE", id: "539883307" }
   - { name: "PDF Viewer", id: "1120099014" }
+  - { name: "CopyClip", id: "595191960" }
