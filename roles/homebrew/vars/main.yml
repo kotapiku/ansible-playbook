@@ -16,6 +16,7 @@ brew_cask_apps:
   - grammarly
   - hyperswitch
   - iterm2
+  - launchcontrol # for launchctl
   - qmk-toolbox # for lily58
   - skim
   - slack
@@ -42,6 +43,7 @@ brew_packages:
   - pyenv
   - reattach-to-user-namespace
   - ripgrep # for fzf
+  - terminal-notifier
   - tig # for github
   - tmux
   - tree
