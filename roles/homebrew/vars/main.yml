@@ -12,7 +12,7 @@ brew_cask_apps:
   - font-hack-nerd-font # iconic font
   - google-chrome
   - google-japanese-ime
-  - google-backup-and-sync
+  - google-drive
   - grammarly
   - hyperswitch
   - iterm2
