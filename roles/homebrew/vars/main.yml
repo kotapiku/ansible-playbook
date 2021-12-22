@@ -31,7 +31,6 @@ brew_packages:
   - ghq
   - gibo
   - git
-  - git-open  # for git open
   - grep
   - heroku
   - htop
