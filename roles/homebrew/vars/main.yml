@@ -14,7 +14,6 @@ brew_cask_apps:
   - google-japanese-ime
   - google-drive
   - grammarly
-  - hyperswitch
   - iterm2
   - launchcontrol # for launchctl
   - qmk-toolbox # for lily58
