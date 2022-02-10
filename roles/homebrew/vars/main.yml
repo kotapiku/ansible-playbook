@@ -19,7 +19,6 @@ brew_cask_apps:
   - qmk-toolbox # for lily58
   - skim
   - slack
-  - spotify
   - visual-studio-code
   - zotero
 brew_packages:
