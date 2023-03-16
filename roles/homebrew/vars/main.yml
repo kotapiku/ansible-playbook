@@ -41,6 +41,7 @@ brew_packages:
   - pyenv
   - reattach-to-user-namespace
   - ripgrep # for fzf
+  - tealdeer # tldr
   - terminal-notifier
   - tig # for github
   - tmux
