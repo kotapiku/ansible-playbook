@@ -14,13 +14,13 @@ brew_cask_apps:
   - google-japanese-ime
   - google-drive
   - grammarly
-  - iterm2
   - launchcontrol # for launchctl
+  - obsidian
   - qmk-toolbox # for lily58
   - skim
   - slack
   - visual-studio-code
-  - zotero
+  - warp
 brew_packages:
   - ag
   - bat # super cat
