@@ -4,8 +4,8 @@ brew_taps:
   - homebrew/cask-drivers # for qmk-toolbox
   - heroku/brew
 brew_cask_apps:
-  - alfred
-  - box-drive
+  - arc
+  - raycast
   - cheatsheet
   - deepl
   - detexify
@@ -13,7 +13,6 @@ brew_cask_apps:
   - google-chrome
   - google-japanese-ime
   - google-drive
-  - grammarly
   - launchcontrol # for launchctl
   - obsidian
   - qmk-toolbox # for lily58
@@ -30,10 +29,9 @@ brew_packages:
   - gibo
   - git
   - grep
-  - heroku
   - htop
   - hub
-  - icdiff # improved colored diff, (e.g. git icdiff)
+  - difftastic # for git diff
   - imagemagick # for latexmk
   - neovim
   - nkf # for encoding
